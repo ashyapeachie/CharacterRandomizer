@@ -9,7 +9,7 @@ import java.util.Random;
 
 public class Lab3 {
     public static void main(String[] args) {
-        System.out.println("Welcome to the DnD Character Randomizer!");
+        System.out.println("\n=== Welcome to the DnD Character Randomizer! ===");
         System.out.println("How many characters would you like to generate?");
         //above is the first thing the user should see when the program first runs propting the user
         
@@ -25,7 +25,7 @@ public class Lab3 {
         //list of potential character stats
         
         while (continueGeneration) {
-            System.out.println("Enter a number (0 to exit): \n");
+            System.out.println("Enter a number (or enter 0 to exit): \n");
             int numCharacters = getPartySize(scanner);
             
             if (numCharacters == 0) {
@@ -49,7 +49,7 @@ public class Lab3 {
             }
             printCharacterInfo(races, classes, characterData);
             
-            System.out.println("How many characters would you like to generate for a new party?\n");
+            System.out.println("Would you like to generate more characters for a new party?\n");
         }
         //the above while statement gets the number of characters from the user's input
     }
@@ -78,12 +78,12 @@ public class Lab3 {
     /* the method belpw prints character information */
     private static void printCharacterInfo(String[] races, String[] classes, String[][] characterData) {
         for (int c = 0; c < characterData.length; c++) {
-            System.out.println("Character " + (c + 1) + " is a: " + characterData[c][0] + " "+ characterData[c][1]);
-            System.out.println("STR: " + characterData[c][2] + " "+ "DEX: " + characterData[c][3] + " " + "CON: " + 
-            characterData[c][4] + " " + "INT: " + characterData[c][5] + " " + "WIS: " + characterData[c][6] + " " + 
-            "CHA: " + characterData[c][7]);
+            System.out.println("Your Character " + (c + 1) + " is a: " + characterData[c][0] + " "+ characterData[c][1]);
+            System.out.println("STR: +" + characterData[c][2] + " "+ "DEX: " + characterData[c][3] + " " + "CON: " + 
+                characterData[c][4] + " " + "INT: " + characterData[c][5] + " " + "WIS: " + characterData[c][6] + " " + 
+                "CHA: " + characterData[c][7]);
             System.out.println(" ");
-            //the " " are for the spaces in between attribute to make it look like the sample run in te Lab 3 document 
+            //the " " are for the spaces in between attributes to make it easy to look at
         }
         //race is characterData[c][0]
         //class is characterData[c][1]
