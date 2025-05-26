@@ -1,7 +1,7 @@
 /* 
- * author:
- * filename:
- * description:
+ * author: Ashya
+ * filename: Lab3.java
+ * description: This program randomizes a playable character for the popular game DnD (Dungeons amd Dragons)
  */
 
 import java.util.Scanner;
