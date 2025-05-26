@@ -17,7 +17,7 @@ public class Lab3 {
         Random rand = new Random();
         boolean continueGeneration = true;
         
-        String[] races = {"Human", "Elf", "Nymph", "Vampire", "Oger"};
+        String[] races = {"Human", "Elf", "Dwarf", "Halflings", "Dragonborn"};
         //list of potential race options
         String[] classes = {"Ranger", "Barbarian", "Bard", "Druid", "Rogue"};
         //list of potential class options
