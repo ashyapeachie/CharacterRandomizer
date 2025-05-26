@@ -67,7 +67,7 @@ public class Lab3 {
                 } else if (partySize >= 1 && partySize <= 10) {
                     valid = true;
                 } else {
-                    System.out.println("Please enter a number between 1 and 10");
+                    System.out.println("Number entered does not work. Please enter a number between 1 and 10:");
                     //message prints if the user's input is invalid and clears the invalid input 
                 }
             }
@@ -79,9 +79,9 @@ public class Lab3 {
     private static void printCharacterInfo(String[] races, String[] classes, String[][] characterData) {
         for (int c = 0; c < characterData.length; c++) {
             System.out.println("Your Character " + (c + 1) + " is a: " + characterData[c][0] + " "+ characterData[c][1]);
-            System.out.println("STR: +" + characterData[c][2] + " "+ "DEX: " + characterData[c][3] + " " + "CON: " + 
-                characterData[c][4] + " " + "INT: " + characterData[c][5] + " " + "WIS: " + characterData[c][6] + " " + 
-                "CHA: " + characterData[c][7]);
+            System.out.println("STR: +" + characterData[c][2] + " "+ "DEX: +" + characterData[c][3] + " " + "CON: +" + 
+                characterData[c][4] + " " + "INT: +" + characterData[c][5] + " " + "WIS: +" + characterData[c][6] + " " + 
+                "CHA: +" + characterData[c][7]);
             System.out.println(" ");
             //the " " are for the spaces in between attributes to make it easy to look at
         }
