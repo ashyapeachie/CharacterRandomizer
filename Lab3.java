@@ -5,7 +5,8 @@
  */
 
 import java.util.Scanner;
-import java.util.Random;
+import java.util.Random; 
+//defining each function
 
 public class Lab3 {
     public static void main(String[] args) {
