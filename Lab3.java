@@ -89,4 +89,5 @@ public class Lab3 {
         //class is characterData[c][1]
         //the other attributes are shortened and match each row   
     }
+    // wanting to make this block of code nicer to look at
 }
