@@ -80,13 +80,18 @@ public class Lab3 {
     private static void printCharacterInfo(String[] races, String[] classes, String[][] characterData) {
         for (int c = 0; c < characterData.length; c++) {
             String race = characterData[c][0];
-            String classes = characterData[c][1];
+            String classeString = characterData[c][1];
             String STR = characterData[c][2];
             String DEX = characterData[c][3];
             String CON = characterData[c][4];
             String INT = characterData[c][5];
             String WIS = characterData[c][6];
             String CHA = characterData[c][7];
+
+            System.out.println("Your Character " + (c + 1) + "is a: " + race + " " + classes);
+            System.out.println("STR: +" + STR + " DEX: +" + DEX "CON: +" + CON + " INT: +" + INT +
+                " WIS: +" + WIS + " CHA: +" + CHA);
+            System.out.println();
             //System.out.println("Your Character " + (c + 1) + " is a: " + characterData[c][0] + " "+ characterData[c][1]);
             //System.out.println("STR: +" + characterData[c][2] + " "+ "DEX: +" + characterData[c][3] + " " + "CON: +" + 
                 //characterData[c][4] + " " + "INT: +" + characterData[c][5] + " " + "WIS: +" + characterData[c][6] + " " + 
