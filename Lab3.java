@@ -79,11 +79,19 @@ public class Lab3 {
     /* the method belpw prints character information */
     private static void printCharacterInfo(String[] races, String[] classes, String[][] characterData) {
         for (int c = 0; c < characterData.length; c++) {
-            System.out.println("Your Character " + (c + 1) + " is a: " + characterData[c][0] + " "+ characterData[c][1]);
-            System.out.println("STR: +" + characterData[c][2] + " "+ "DEX: +" + characterData[c][3] + " " + "CON: +" + 
-                characterData[c][4] + " " + "INT: +" + characterData[c][5] + " " + "WIS: +" + characterData[c][6] + " " + 
-                "CHA: +" + characterData[c][7]);
-            System.out.println(" ");
+            String race = characterData[c][0];
+            String classes = characterData[c][1];
+            String STR = characterData[c][2];
+            String DEX = characterData[c][3];
+            String CON = characterData[c][4];
+            String INT = characterData[c][5];
+            String WIS = characterData[c][6];
+            String CHA = characterData[c][7];
+            //System.out.println("Your Character " + (c + 1) + " is a: " + characterData[c][0] + " "+ characterData[c][1]);
+            //System.out.println("STR: +" + characterData[c][2] + " "+ "DEX: +" + characterData[c][3] + " " + "CON: +" + 
+                //characterData[c][4] + " " + "INT: +" + characterData[c][5] + " " + "WIS: +" + characterData[c][6] + " " + 
+                //"CHA: +" + characterData[c][7]);
+            //System.out.println(" ");
             //the " " are for the spaces in between attributes to make it easy to look at
         }
         //race is characterData[c][0]
