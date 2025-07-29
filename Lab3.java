@@ -91,7 +91,7 @@ public class Lab3 {
             System.out.println("Your Character " + (c + 1) + "is a: " + race + " " + classes);
             System.out.println("STR: +" + STR + " DEX: +" + DEX "CON: +" + CON + " INT: +" + INT +
                 " WIS: +" + WIS + " CHA: +" + CHA);
-            System.out.println();
+            System.out.println(" ");
             //System.out.println("Your Character " + (c + 1) + " is a: " + characterData[c][0] + " "+ characterData[c][1]);
             //System.out.println("STR: +" + characterData[c][2] + " "+ "DEX: +" + characterData[c][3] + " " + "CON: +" + 
                 //characterData[c][4] + " " + "INT: +" + characterData[c][5] + " " + "WIS: +" + characterData[c][6] + " " + 
@@ -99,8 +99,6 @@ public class Lab3 {
             //System.out.println(" ");
             //the " " are for the spaces in between attributes to make it easy to look at
         }
-        //race is characterData[c][0]
-        //class is characterData[c][1]
         //the other attributes are shortened and match each row   
     }
     // wanting to make this block of code nicer to look at
