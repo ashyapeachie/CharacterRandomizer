@@ -6,7 +6,7 @@
 
 import java.util.Scanner;
 import java.util.Random; 
-//defining each function
+//defining each function 
 
 public class Lab3 {
     public static void main(String[] args) {
@@ -68,7 +68,7 @@ public class Lab3 {
                 } else if (partySize >= 1 && partySize <= 10) {
                     valid = true;
                 } else {
-                    System.out.println("Number entered does not work. Please enter a number between 1 and 10:");
+                    System.out.println("Number entered does not work! Please enter a number between 1 and 10:");
                     //message prints if the user's input is invalid and clears the invalid input 
                 }
             }
